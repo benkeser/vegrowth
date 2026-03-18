@@ -361,7 +361,7 @@ do_aipw_nat_inf <- function(
       (data[[Z_name]] / pi_1_X) * (data[[S_name]] / rho_bar_0) * (data[[Y_name]] - mu_11_X) +
         ((1 - data[[S_name]]) / (1 - rho_bar_dot)) * (rho_0_X - rho_1_X) / rho_bar_0 * (data[[Y_name]] - mu_dot0_X) + 
         (data[[Z_name]] / pi_1_X) * (mu_11_X - mu_dot0_X) / rho_bar_0 * (data[[S_name]] - rho_1_X) + 
-        ((1 - data[[Z_name]]) / pi_0_X) * (mu_10_X - psi_1) / rho_bar_0 * (data[[S_name]] - rho_0_X) - 
+        ((1 - data[[Z_name]]) / pi_0_X) * (mu_dot0_X - psi_1) / rho_bar_0 * (data[[S_name]] - rho_0_X) - 
         psi_1 / rho_bar_0 * (rho_0_X - rho_bar_0) + psi_tilde_1_X - psi_1
     )
     
